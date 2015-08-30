@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OneWireTemperatureClient.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PachubeCsvUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://www.pachube.com/api/feeds/3128.csv</Value>
+    </Setting>
+    <Setting Name="PachubeHttpHeader" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">X-PachubeApiKey: 5b25f51c296ad522311b63d48f3ac89b0583e4e833d5488a2ad6822158061eb0</Value>
+    </Setting>
+    <Setting Name="UploadIntervalSeconds" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">600</Value>
+    </Setting>
+    <Setting Name="TemperaturePollIntervalSeconds" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="OneWireAdapterName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{DS9490}</Value>
+    </Setting>
+    <Setting Name="OneWirePortName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">USB1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
